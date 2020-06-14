@@ -1,0 +1,137 @@
+.productSlider{
+    background-color: #e1b15c1c;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.title{
+    width: 720px;
+    text-align: center;
+    margin: auto;
+}
+
+.title h6{
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.title h2{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: #d49931;  
+    font-weight: 600;
+}
+
+.productSlider .well{
+    background-color: #fff;
+    border: none;
+    background-color: #fcf7ed;
+    margin: 0;
+}
+
+.well{
+    background-color: #fcf7ed;
+}
+
+.thumbnail{
+    border: none;
+    margin: 0;
+    background-color: #eee8df;
+    padding: 0;
+    border-radius: 15px;
+    position: relative;
+}
+
+.thumbnail a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.thumbnail:hover .like_product{
+    z-index: 1;
+    transition: all .5s;
+}
+
+.like_product:hover{
+    color: #ff0000c7;
+}
+
+.thumbnail:hover .detailt_product{
+    top: 22rem;
+    z-index: 1;
+    transition: all .8s;
+}
+
+.like_product{
+    top: 1rem;
+    position: absolute;
+    right: 2rem;
+    border: 2px solid;
+    z-index: -1;
+    padding: 4px 7px;
+    border-radius: 20px;
+    color: #0000007a;
+    cursor: pointer;
+}
+
+.detailt_product{
+    position: absolute;
+    top: 26rem;
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #f5ac06c7;
+    color: #fff;
+    z-index: -1;
+}
+
+.carousel-control-custom{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    background-color: #fff9;
+    font-size: 14px;
+    padding: 0 18px;
+}
+
+.carousel-control-custom:hover i{
+    color: #e1b15c;
+}
+
+.carousel-control-custom i{
+    color: #000;
+    position: absolute;
+    top: 40%;
+}
+
+.carousel-control-custom.right{
+    right: 0;
+    border-bottom-right-radius: 15px;
+}
+.carousel-control-custom.left{
+    border-bottom-left-radius: 15px;
+}
+
+.carousel-control-custom.left i{
+    left: 10px;
+}
+
+.carousel-control-custom.right i{
+    right: 10px;
+}
+
+.caption h4{
+    padding-left: 2.5rem;
+    color: #d49931;  
+    z-index: 2;
+}
+
+.caption p{
+    background-color: #fff;
+    display: inline-block;
+    padding: 14px 12px;
+    border-radius: 36px;
+    margin-left: 15rem;
+}
