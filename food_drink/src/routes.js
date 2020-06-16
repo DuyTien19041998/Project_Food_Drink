@@ -1,7 +1,7 @@
 import React from "react"
 import HomePage from "./pages/HomePage/HomePage"
 import NotFoundPage from "./pages/NotFoundPage/NotFoundPage"
-
+import ReviewProduct from "./pages/ReviewProduct/ReviewProduct";
 const routes = [
     {
         path: "/",
@@ -11,7 +11,12 @@ const routes = [
     {
         path: "",
         exact: true,
-        main: () => <NotFoundPage/>
+        main: () => <ReviewProduct />
+    },
+    {
+        path: "",
+        exact: true,
+        main: () => <ReviewProduct />
     }
 ]
 
