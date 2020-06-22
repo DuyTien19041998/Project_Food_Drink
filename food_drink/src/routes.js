@@ -16,8 +16,13 @@ const routes = [
     {
         path: "",
         exact: true,
-        main: () => <ReviewProduct />
-    }
+        main: () => <NotFoundPage />
+    },
+    // {
+    //     path: "",
+    //     exact: true,
+    //     main: () => <NotFoundPage />
+    // }
 ]
 
 export default routes;

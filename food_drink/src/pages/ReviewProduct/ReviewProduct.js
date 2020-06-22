@@ -191,8 +191,7 @@ class ReviewProduct extends React.Component {
                     <p>Tháng 6 năm 2020</p>
                     <h3>Trà sữa hương tự nhiên</h3>
                     <p>
-                      Mỗi một hành động nhỏ của các bạn như thu gom, xử lý chất
-                      thải...
+                      Điểm tâm bánh ngọt , bánh bông lan
                     </p>
                     <a href="#">
                       <i className="fas fa-arrow-right"></i>
@@ -207,8 +206,7 @@ class ReviewProduct extends React.Component {
                     <p>Tháng 6 năm 2020</p>
                     <h3>Trà sữa hương tự nhiên</h3>
                     <p>
-                      Mỗi một hành động nhỏ của các bạn như thu gom, xử lý chất
-                      thải...
+                      Nước ép trái cây tự nhiên.
                     </p>
                     <a href="#">
                       <i className="fas fa-arrow-right ten"></i>
